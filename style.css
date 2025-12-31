@@ -80,6 +80,41 @@ h2 {
 #contact {
     background: #333;
     color: white;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 2rem;
+}
+
+.skills span {
+    background: #667eea;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.btn {
+    background: #667eea;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #5a67d8;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 @media (max-width: 768px) {
